@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body
+        {
+            background-color: rgba(139, 69, 19, 0.437);
+            margin: 0;
+        }
+        .ul{
+            background-color: saddlebrown;
+            list-style: none; 
+            /* float:left; */
+            /* border: 10px solid  red; */
+            overflow: hidden;
+            margin: 0;
+            padding: 0; 
+            /* padding: 20px; */
+        }
+
+        .ul li{
+            float: left;
+            padding: 20px;
+        }
+
+        
+        .ul li a{
+            text-decoration: none;
+            color:rgb(243, 239, 240);
+            font-size: 20px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            padding: 20px;
+        }
+
+        .ul li a:hover{
+            background-color: tan;
+            color:saddlebrown;
+            /* border-radius: 30px; */
+            border-top-left-radius: 30px;
+            border-bottom-right-radius: 30px;
+            box-shadow: 0px 2px 15px 5px whitesmoke;
+            border: 1px solid rgb(247, 153, 153);
+        }
+        
+        .imgleft{
+            width: 200px;
+            height: 200px;
+            float: left;
+            padding: 30px;
+            border-radius: 70px;
+        }
+        .imgRght{
+            width: 200px;
+            height: 200px;
+            float: right;
+            padding: 30px;
+            border-radius: 70px;
+        }
+        .container{
+            width: 90%;
+            background-color: rgba(165, 42, 42, 0.419);
+            height: 300px;
+            padding: 10px;
+            margin: 40px;
+            border-radius: 40px;
+            border: 5px dashed saddlebrown;
+            box-shadow: 2px 2px 10px rgb(15, 15, 15);
+        }
+         p{
+            margin-top: 30px;
+            padding: 20px;
+            font-size: 20px;
+            text-align: justify;
+            text-indent: 150px;
+         }
+    </style>
+</head>
+<body>
+    <UL class="ul">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Gallary</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Log Out</a></li>
+    </UL>
+
+    <div class="main">
+        <div class="container">
+            
+            <div class="section" >
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSplOFbNztl4UEL-buiRuHE1dw5nnZnCHZ_Vay54rRtYQ&s=10" class="imgleft">
+                <div>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Commodi ab dolorum voluptate quasi nam, molestias deserunt consectetur veniam libero beatae nisi! Et rerum impedit cupiditate voluptatibus expedita at, dolore magnam! Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem laboriosam in nemo. Earum mollitia atque eveniet alias suscipit quis quam possimus soluta maiores. Aperiam ipsum magni repudiandae et aspernatur in.</p>
+            </div>
+            </div>
+
+        </div>
+        <div class="container">
+            
+            <div class="section">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSplOFbNztl4UEL-buiRuHE1dw5nnZnCHZ_Vay54rRtYQ&s=10" class="imgRght">
+                <div>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Commodi ab dolorum voluptate quasi nam, molestias deserunt consectetur veniam libero beatae nisi! Et rerum impedit cupiditate voluptatibus expedita at, dolore magnam! Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem laboriosam in nemo. Earum mollitia atque eveniet alias suscipit quis quam possimus soluta maiores. Aperiam ipsum magni repudiandae et aspernatur in.</p>
+            </div>
+            </div>
+
+        </div>
+    </div>
+</body>
+</html>
