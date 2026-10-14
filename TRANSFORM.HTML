@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box1{
+            width: 200px;
+            height: 200px;
+            background-color: rebeccapurple;
+            margin: 10px;
+            /* transform: translateX(200px); */
+            /* transform: translateY(200px); */
+            /* transform: translate(200px,200px); */
+            transform: skew(20deg)
+
+        }
+        .box2{
+            width: 200px;
+            height: 200px;
+            background-color: rgb(220, 234, 119);
+            margin: 10px;
+            transform: rotate(270deg);
+        }
+        .box3{
+            width: 200px;
+            height: 200px;
+            background-color: rgb(106, 128, 169);
+            margin: 10px;
+            /* transform: translate(200px,200px) scale(1.4); */
+            transform: translate(200px,200px);
+            /* transform: translate(200px,200px) rotate(120deg); */
+
+            /* 1 normal
+               0 gayab
+               0.6 : smaller
+               1.2 : bigger
+             */
+             transition: 5s;
+        }
+        .box3:hover{
+            /* transform:translate(200px,200px) scale(0.1)   */
+            transform: translate(200px,200px) rotate(120deg);
+            /* transform:  rotate(120deg) translate(200px,200px); */
+
+
+            /* width: 400px; */
+        }
+    </style>
+</head>
+<body>
+    <!-- <div class="box1"></div> -->
+    <!-- <div class="box2"> -->
+        <!-- <h1>Royal</h1> -->
+    <!-- </div> -->
+    <div class="box3">Box 3</div>
+</body>
+</html>
